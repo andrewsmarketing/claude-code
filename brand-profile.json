@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "brand_name": "Strivve Media",
+  "website_url": "https://strivvemedia.com",
+  "extracted_at": "2026-04-17T21:50:00Z",
+  "tagline": "Strivve for Excellence",
+  "positioning": "AI Automation. Meta Ads. Custom Websites. One agency built to grow your business.",
+  "services": [
+    {
+      "name": "AI Assistants",
+      "description": "Custom AI for 24/7 lead qualification and booking",
+      "pricing": "Starting at $500 setup"
+    },
+    {
+      "name": "Meta Ads",
+      "description": "Facebook & Instagram campaign management",
+      "pricing": "10% commission or $1,000/month"
+    },
+    {
+      "name": "Custom Websites",
+      "description": "Lead-capture focused, SEO-optimized websites",
+      "pricing": "Starting at $500"
+    }
+  ],
+  "voice": {
+    "formal_casual": 7,
+    "rational_emotional": 6,
+    "playful_serious": 4,
+    "bold_subtle": 8,
+    "traditional_innovative": 9,
+    "expert_accessible": 8,
+    "descriptors": ["bold", "innovative", "accessible"],
+    "confidence": "medium",
+    "signals": [
+      "Uses 'you/your' frequently in CTAs and body copy",
+      "Short, punchy taglines (under 8 words)",
+      "AI-forward 'Accept the Future' innovation framing",
+      "Benefit-led language ('Make your life easier'), avoids jargon",
+      "Direct CTAs ('Book a Free Call', 'Get in Touch')"
+    ]
+  },
+  "colors": {
+    "primary": null,
+    "secondary": [],
+    "forbidden": ["pastel consumer palette", "cheesy stock photo backgrounds"],
+    "background": "#0A0A0A",
+    "text": "#FFFFFF",
+    "notes": "Dark-mode aesthetic inferred from transparent-white logo and modern SaaS agency styling; exact hex values not extractable from rendered HTML"
+  },
+  "typography": {
+    "heading_font": null,
+    "body_font": null,
+    "pairing_descriptor": "Modern sans-serif SaaS agency styling (specific fonts not detectable from WebFetch; likely Inter, Poppins, or Manrope based on industry conventions)"
+  },
+  "imagery": {
+    "style": "mixed — product/service visuals with geographic credibility graphics (US map)",
+    "subjects": ["AI/technology abstractions", "dashboard and device mockups", "US service-business geography"],
+    "composition": "clean, minimal, dark-mode SaaS with clear CTA hierarchy",
+    "forbidden": [
+      "cheesy stock photos",
+      "unrealistic income/wealth imagery",
+      "before/after lead-gen screenshots without context"
+    ]
+  },
+  "aesthetic": {
+    "mood_keywords": ["modern", "confident", "growth-oriented", "tech-forward"],
+    "texture": "minimal",
+    "negative_space": "generous"
+  },
+  "brand_values": [
+    "excellence",
+    "speed (lead capture, automation)",
+    "accessibility of AI for small/mid-size businesses"
+  ],
+  "target_audience": {
+    "age_range": "30-55",
+    "profession": "Owners/operators of US service businesses (home services, local trades, medspa, fitness, professional services) and e-commerce brands under ~$5M revenue",
+    "geography": "United States — currently active in Texas, South Carolina, South Florida",
+    "pain_points": [
+      "Missing leads after hours / slow response times",
+      "Ad spend that doesn't convert to booked calls or sales",
+      "Outdated websites that don't capture traffic",
+      "Can't afford a full-time marketing team",
+      "Overwhelmed by 'AI' hype but unsure how to actually use it"
+    ],
+    "aspirations": [
+      "Predictable lead flow without manual follow-up",
+      "Higher ROAS on existing Meta ad spend",
+      "A website that books clients while they sleep",
+      "Looking modern and future-ready to prospects"
+    ]
+  },
+  "offer_anchors": [
+    "Free discovery call (primary CTA across site)",
+    "Productized starting price ($500) reduces friction",
+    "Bundled 'one agency' positioning vs. hiring 3 vendors"
+  ],
+  "competitive_angle": "Bundled AI + Meta Ads + Website as one agency vs. clients stitching together separate vendors; positioned as the 'accept the future' modern alternative to traditional marketing agencies",
+  "screenshots": null,
+  "notes": "Brand profile built from homepage content extraction. Exact color hexes and Google Font identifiers not recoverable via text-only WebFetch; would require Playwright screenshot + CSS scrape for full visual fidelity. Confidence: medium on voice, low on exact visual identity, high on services/positioning."
+}
